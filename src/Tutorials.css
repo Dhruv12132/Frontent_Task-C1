@@ -1,0 +1,38 @@
+.tutorials-section {
+  padding: 60px 5%;
+  text-align: center;
+}
+
+.tutorials-section h1 {
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.tutorials-container {
+  max-width: 1500px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+.tutorials-section .see-all-button {
+  margin-top: 35px;
+
+  padding: 12px 25px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #e5e7eb;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.tutorials-section .see-all-button:hover {
+  background-color: #d1d5db;
+}

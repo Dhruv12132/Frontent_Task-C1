@@ -1,0 +1,117 @@
+.footer {
+  background-color: black;
+  color: white;
+
+  margin-top: 50px;
+}
+
+/* Signup */
+
+.footer-signup {
+  padding: 35px 5%;
+
+  text-align: center;
+
+  border-bottom: 1px solid #444;
+}
+
+.footer-signup h2 {
+  font-size: 24px;
+}
+
+.footer-subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-subscribe input {
+  width: 300px;
+  height: 40px;
+
+  padding: 10px;
+
+  border: none;
+}
+
+.footer-subscribe button {
+  height: 40px;
+
+  padding: 0 20px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+
+/* Footer links */
+
+.footer-links {
+  max-width: 1000px;
+
+  margin: auto;
+
+  padding: 45px 20px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 40px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h3 {
+  font-size: 20px;
+
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: white;
+
+  text-decoration: none;
+
+  margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Bottom */
+
+.footer-bottom {
+  text-align: center;
+
+  padding: 25px;
+
+  border-top: 1px solid #444;
+}
+
+.footer-bottom h2 {
+  margin-bottom: 10px;
+}
+
+.footer-bottom p {
+  margin-bottom: 15px;
+}
+
+.footer-bottom-links {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 25px;
+}
+
+.footer-bottom-links a {
+  color: white;
+
+  text-decoration: none;
+}
