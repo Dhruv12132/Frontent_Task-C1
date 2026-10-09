@@ -12,11 +12,11 @@ function Gallery() {
   return (
     <section id="gallery" className="gallery-section">
 
-      <h1>
+      <h1 style={{textAlign: "center", borderTop: "10px"}} >
         Gallery
       </h1>
 
-      <div className="gallery">
+      <div className="gallery" style = {{display: "flex", justifyContent: "center", gap: "20px", padding: "20px"}}>
 
         {images.map((image, index) => (
           <img

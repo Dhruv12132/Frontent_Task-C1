@@ -29,7 +29,7 @@ function Projects() {
   return (
     <section id="work" className="projects-section">
 
-      <h1>
+      <h1 style={{textAlign: "center"}} >
         My Projects
       </h1>
 

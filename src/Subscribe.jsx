@@ -16,7 +16,7 @@ function Subscribe() {
   }
 
   return (
-    <section id="subscribe" className="section">
+    <section id="subscribe" className="section" style={{textAlign: "center", padding: "20px"}}>
 
       <h2 className="text-2xl text-center font-bold">
         Subscribe

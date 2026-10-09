@@ -8,9 +8,9 @@ function About() {
         About Me
       </h1>
 
-      <div className="about-content">
+      <div className="about-content" style = {{backgroundColor: "black", color: "white", }}>
 
-        <img
+        <img style = {{width: "180px", height: "180px", borderRadius: "50%", padding: "10px", margin: "20px"}}
           src="/profile.jpeg"
           alt="Dhruv Profile"
         />

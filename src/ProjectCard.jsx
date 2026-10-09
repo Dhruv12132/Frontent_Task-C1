@@ -2,9 +2,9 @@ import "./ProjectCard.css"
 
 function ProjectCard({ image, title, description }) {
   return (
-    <div className="project-card">
+    <div className="project-card" style = {{alignItems: "center", textAlign: "center" , padding: "20px", border: "1px solid #ccc", margin: "20px"}}>
 
-      <img
+      <img 
         src={image}
         alt={title}
       />
