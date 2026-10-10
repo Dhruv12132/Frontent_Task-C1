@@ -11,21 +11,14 @@ function Footer() {
           SIGN UP FOR OUR DAILY INSIDER
         </h2>
 
-        <div className="footer-subscribe">
+        <input type="text" className="navbar-search" placeholder="Search" />
 
-          <input type="email" placeholder="Enter your email" />
-
-          <Link to="/signup" className="footer-signup-button">
-            Sign Up
-          </Link>
-
-          <Link to="/login" className="footer-login-button">
-            Login
-          </Link>
-
-        </div>
-
+      <div className="navbar-links">
+        <Link to="/">Post</Link>
+        <Link to="/login">Login</Link>
       </div>
+
+    </div>
 
 
       <div className="footer-links">

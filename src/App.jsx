@@ -13,7 +13,7 @@ import Tutorials from "./Tutorials";
 import Footer from "./route/Footer";
 
 import Login from "./route/Login";
-import Signup from "./route/signup";
+import Signup from "./route/Signup";
 
 function Home() {
   return (
