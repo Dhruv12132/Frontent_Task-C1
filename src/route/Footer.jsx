@@ -1,4 +1,5 @@
 import "./Footer.css"
+import { Link } from "react-router-dom"
 
 function Footer() {
   return (
@@ -12,14 +13,15 @@ function Footer() {
 
         <div className="footer-subscribe">
 
-          <input
-            type="email"
-            placeholder="Enter your email"
-          />
+          <input type="email" placeholder="Enter your email" />
 
-          <button>
-            Subscribe
-          </button>
+          <Link to="/signup" className="footer-signup-button">
+            Sign Up
+          </Link>
+
+          <Link to="/login" className="footer-login-button">
+            Login
+          </Link>
 
         </div>
 
