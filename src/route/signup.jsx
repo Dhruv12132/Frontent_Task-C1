@@ -47,39 +47,19 @@ function Signup() {
 
             <form onSubmit={handleSignUp}>
                 <label>Name</label>
-                <input
-                    type="text"
-                    placeholder="Enter Full Name"
-                    value={username}
-                    onChange={(e) => setusername(e.target.value)}
-                    required
+                <input placeholder="Enter Full Name" type="text" value={username} onChange={(e) => setusername(e.target.value)} required
                 />
 
                 <label>Email</label>
-                <input
-                    type="email"
-                    placeholder="Enter Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
+                <input type="email" placeholder="Enter Email" value={email} onChange={(e) => setEmail(e.target.value)} required
                 />
 
                 <label>Password</label>
-                <input
-                    type="password"
-                    placeholder="Enter Password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
+                <input type="password" placeholder="Enter Password" value={password} onChange={(e) => setPassword(e.target.value)} required
                 />
 
                 <label>Confirm Password</label>
-                <input
-                    type="password"
-                    placeholder="Confirm Password"
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
-                    required
+                <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required
                 />
 
                 <button className="signup-button" type="submit">
