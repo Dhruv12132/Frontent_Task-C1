@@ -1,0 +1,87 @@
+/* Main post page */
+.post-container {
+  width: 90%;
+  margin: 20px auto;
+  font-family: monospace;
+  color: #222;
+}
+
+/* New Post heading */
+.heading {
+  background-color: #e2e2e2;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Question and Article selection */
+.post {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 15px 5px 25px;
+}
+
+.post label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.post input[type="radio"] {
+  cursor: pointer;
+}
+
+/* Form section headings */
+.post-container h3 {
+  background-color: #e2e2e2;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 20px 0 15px;
+}
+
+/* Form labels */
+.post-container label {
+  font-size: 13px;
+}
+
+/* Input fields and text areas */
+.post-container textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 6px 0 15px;
+  border: 1px solid #888;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+/* Post button */
+.post-container button {
+  display: block;
+  width: 130px;
+  margin: 20px 0 30px auto;
+  padding: 7px;
+  background-color: #a0a0a0;
+  color: #111;
+  font-size: 14px;
+}
+
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .post-container {
+    width: 95%;
+  }
+
+  .post {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .post-container button {
+    width: 100%;
+  }
+}

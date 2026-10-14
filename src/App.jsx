@@ -7,14 +7,15 @@ import About from "./About";
 import Projects from "./Projects";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
-import Subscribe from "./Subscribe";
+
 import Articles from "./Articles";
 import Tutorials from "./Tutorials";
 import Footer from "./route/Footer";
 
 import Login from "./route/Login";
 import Signup from "./route/Signup";
-
+ 
+import Post from "./route/post";
 function Home() {
   return (
     <>
@@ -23,7 +24,6 @@ function Home() {
       <Projects />
       <Gallery />
       <Contact />
-      <Subscribe />
       <Articles />
       <Tutorials />
     </>
@@ -39,6 +39,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/post" element={<Post />} />
       </Routes>
 
       <Footer />

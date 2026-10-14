@@ -14,7 +14,7 @@ function Footer() {
         <input type="text" className="navbar-search" placeholder="Search" />
 
       <div className="navbar-links">
-        <Link to="/">Post</Link>
+        <Link to="/post">Post</Link>
         <Link to="/login">Login</Link>
       </div>
 
