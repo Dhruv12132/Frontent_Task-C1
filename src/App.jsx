@@ -16,6 +16,7 @@ import Login from "./route/Login";
 import Signup from "./route/Signup";
  
 import Post from "./route/post";
+import Subscribe from "./Subscribe";
 function Home() {
   return (
     <>
@@ -26,6 +27,7 @@ function Home() {
       <Contact />
       <Articles />
       <Tutorials />
+      <Subscribe />
     </>
   );
 }
