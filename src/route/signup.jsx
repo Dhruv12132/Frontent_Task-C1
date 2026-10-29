@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { auth, db } from "./firebase.js";
 import { useNavigate } from "react-router-dom";
-import "./Signup.css";
+import "./signup.css";
 
 function Signup() {
     const [username, setusername] = useState("");
