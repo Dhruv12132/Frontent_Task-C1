@@ -15,7 +15,7 @@ import Footer from "./route/Footer";
 import Login from "./route/Login";
 import Signup from "./route/Signup";
  
-import Post from "./route/post";
+import Post from "./route/Post";
 import Subscribe from "./Subscribe";
 function Home() {
   return (
